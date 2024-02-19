@@ -17,7 +17,7 @@ const {song,loading} = useSelector(state => state.data);
 console.log(song);
 useEffect(()=>{
   dispatch(loadSongStart());
-},[]);
+},[dispatch]);
 
 
 
